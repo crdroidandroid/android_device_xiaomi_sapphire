@@ -136,8 +136,7 @@ BOARD_BOOTCONFIG := \
 BOARD_KERNEL_CMDLINE := \
 	kasan=off \
 	rcu_nocbs=all \
-    rcutree.enable_rcu_lazy=1 \
-    video=vfb:640x400,bpp=32,memsize=3072000
+    rcutree.enable_rcu_lazy=1
 
 TARGET_KERNEL_ARCH := arm64
 INLINE_KERNEL_BUILDING := true
