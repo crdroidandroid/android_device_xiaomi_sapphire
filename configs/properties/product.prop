@@ -19,6 +19,9 @@ ro.mot.eri.losalert.delay=100
 ro.vold.umsdirtyratio=20
 power.saving.mode=1
 
+# Display
+ro.sf.lcd_density=420
+
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
 
