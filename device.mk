@@ -170,6 +170,42 @@ PRODUCT_PACKAGES += \
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
+# Dex
+# Dex pre-opt
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+WITH_DEXPREOPT := true
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := false
+WITH_DEXPREOPT_DEBUG_INFO := false
+
+# Don't build debug for host or device
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_DEBUG := false
+
+
+# Always preopt extracted APKs to prevent extracting out of the APK for gms modules
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+
+# Use a profile based boot image for this device
+PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
+PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
+
+# Speed profile services and wifi-service to reduce RAM and storage
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
+# Recommend using the non debug dexpreopter
+USE_DEX2OAT_DEBUG := false
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI \
+    Launcher3QuickStep \
+    SettingsInlelligence \
+    SettingsProvider \
+    Settings
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4.vendor \
