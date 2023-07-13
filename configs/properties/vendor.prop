@@ -235,6 +235,7 @@ vendor.gralloc.secure_preview_buffer_format=420_sp
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
+debug.sdm.support_writeback=0
 
 # Displayfeature
 ro.vendor.all_modes.colorpick_adjust=true
