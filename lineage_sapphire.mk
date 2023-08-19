@@ -27,4 +27,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 13
 
+BUILD_FINGERPRINT := Redmi/sapphiren_global/sapphiren:13/TKQ1.221114.001/OS2.0.5.0.VNGMIXM:user/release-keys
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
