@@ -70,6 +70,16 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libstagefright_foundation.so" "libstagefright_foundation-v33.so" "${2}"
             ;;
+        vendor/bin/hw/vendor.qti.media.c2@1.0-service|vendor/bin/hw/vendor.dolby.media.c2@1.0-service|vendor/bin/hw/vendor.qti.media.c2audio@1.0-service)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "libcodec2_hidl@1.0.so" "${2}"
+            "${PATCHELF}" --add-needed "libshim.so" "${2}"
+            ;;
+        vendor/bin/vendor.dpmd)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "vendor.libdpmframework.so" "${2}"
+            "${PATCHELF}" --add-needed "libshim.so" "${2}"
+            ;;
         vendor/etc/seccomp_policy/atfwd@2.0.policy)
             [ "$2" = "" ] && return 0
             grep -q "gettid: 1" "${2}" || echo "gettid: 1" >> "${2}"
