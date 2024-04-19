@@ -312,6 +312,7 @@ PRODUCT_PACKAGES += \
     init.kernel.post_boot-bengal-iot.sh \
     init.kernel.post_boot.sh \
     init.qcom.class_core.sh \
+    init.sim.restart.sh \
     init.qcom.early_boot.sh \
     init.qcom.sh \
     init.qti.dcvs.sh \
