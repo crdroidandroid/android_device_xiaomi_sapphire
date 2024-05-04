@@ -7,6 +7,6 @@
 
 service call phone 185 i32 0 i32 0
 
-wait 5
+sleep 1
 
 service call phone 185 i32 0 i32 1
