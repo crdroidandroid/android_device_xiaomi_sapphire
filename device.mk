@@ -415,7 +415,18 @@ PRODUCT_COPY_FILES += \
 # OMX
 PRODUCT_PACKAGES += \
     libmm-omxcore \
-    libOmxCore
+    libOmxCore \
+    libopus.vendor \
+    libstagefright_amrnb_common.vendor \
+    libstagefright_enc_common.vendor \
+    libstagefright_softomx.vendor \
+    libstagefright_softomx_plugin.vendor \
+    libstagefrighthw \
+	libstagefright_omx.vendor \
+    libstagefright_softomx.vendor \
+    libstagefright_softomx_plugin.vendor \
+    libvorbisidec.vendor \
+    libvpx.vendor
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
