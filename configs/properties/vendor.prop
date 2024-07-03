@@ -304,6 +304,15 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mm.enable.qcom_parser=16711663
 persist.mm.enable.prefetch=true
 
+# Reduce the delay before killing inactive processes
+persist.sys.purgeable_assets=1
+
+# Miscellaneous performance tweaks
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+persist.service.mount.playsnd=0
+ro.config.nocheckin=1
+
 # Netflix
 vendor.netflix.bsp_rev=Q6115-31409-1
 
