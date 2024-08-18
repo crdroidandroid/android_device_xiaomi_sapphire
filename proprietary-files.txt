@@ -1297,13 +1297,6 @@ system_ext/priv-app/ims/ims.apk|9065ecc8af98f75e860e6294524fd801ba0ebcc3
 # IPA
 vendor/etc/init/ipa_fws.rc
 
-# IR
-vendor/bin/consumerird
-vendor/bin/hw/android.hardware.ir-service.example
-vendor/etc/init/android.hardware.ir-service.example.rc
-vendor/etc/vintf/manifest/android.hardware.ir-service.example.xml
-vendor/lib64/hw/consumerir.qcom.so
-
 # Keymint
 vendor/bin/hw/android.hardware.security.keymint-service-qti
 vendor/etc/init/android.hardware.security.keymint-service-qti.rc
