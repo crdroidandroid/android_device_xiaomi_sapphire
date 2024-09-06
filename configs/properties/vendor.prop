@@ -344,6 +344,10 @@ vendor.usb.use_gadget_hal=0
 
 # Wi-Fi
 wifi.aware.interface=wifi-aware0
+ro.hardware.wlan.dbs=0
+ro.hardware.wlan.mimo=0
+ro.hardware.wlan.vendor=qcom
+ro.hardware.wlan.chip=wcn3988
 
 # Zygote
 zygote.critical_window.minute=10
