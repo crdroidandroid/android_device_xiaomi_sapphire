@@ -594,7 +594,7 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.2.vendor:64
+    android.hardware.usb-service.qti
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_VENDOR_PROPERTIES += \
