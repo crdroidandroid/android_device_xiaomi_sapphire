@@ -33,6 +33,12 @@ debug.hwui.target_cpu_time_percent=30
 # HWUI
 debug.hwui.skia_atrace_enabled=false
 
+# LMKD
+ro.config.low_ram=false
+ro.lmk.use_minfree_levels=true
+ro.lmk.kill_timeout_ms=100
+ro.lmk.swap_util_max=90
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_khaje_v0.xml
 media.aac_51_output_enabled=true
