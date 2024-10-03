@@ -84,6 +84,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             grep -q "setsockopt: 1" "${2}" || echo "setsockopt: 1" >> "${2}"
             ;;
+        vendor/etc/thermald-devices.conf)
+            [ "$2" = "" ] && return 0
+            sed -i '/#battery/,/]/s/select_higher: 1/select_higher: 0/' "${2}"
+            ;;
         *)
             return 1
             ;;
