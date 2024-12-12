@@ -88,4 +88,7 @@
     <!-- Expected value from fast charging status file  -->
     <string name="config_oemFastChargerStatusValue" translatable="false">3</string>
 
+     <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
+     <bool name="config_dozePulsePickup">true</bool>
+
 </resources>
