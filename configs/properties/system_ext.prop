@@ -1,5 +1,6 @@
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
+ro.dalvik.vm.enable_uffd_gc=true
 
 # DPM
 persist.vendor.dpm.feature=11
