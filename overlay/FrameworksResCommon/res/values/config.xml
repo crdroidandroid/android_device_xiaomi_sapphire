@@ -184,7 +184,6 @@
          config_tcp_buffers for rat-independent TCP buffer sizes.
     -->
     <string-array name="config_mobile_tcp_buffers">
-        <item>5gnr:2097152,6291456,16777216,512000,2097152,8388608</item>
         <item>lte:2097152,4194304,8388608,262144,524288,1048576</item>
         <item>lte_ca:4096,6291456,12582912,4096,1048576,2097152</item>
         <item>umts:4094,87380,1220608,4096,16384,1220608</item>
@@ -204,10 +203,6 @@
          network-type in use, config_tcp_buffers will be used instead.
     -->
     <string-array name="config_network_type_tcp_buffers">
-        <item>NR_SA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
-        <item>NR_SA:2097152,6291456,16777216,512000,2097152,8388608</item>
-        <item>NR_NSA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
-        <item>NR_NSA:2097152,6291456,16777216,512000,2097152,8388608</item>
         <item>LTE:2097152,4194304,8388608,262144,524288,1048576</item>
         <item>LTE_CA:4096,6291456,12582912,4096,1048576,2097152</item>
         <item>UMTS:4094,87380,1220608,4096,16384,1220608</item>
