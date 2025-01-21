@@ -485,4 +485,7 @@
         <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">false</bool>
 
+        <!-- Show 5G toggle in internet dialog when available -->
+    <bool name="config_supportsVONR">false</bool>
+
 </resources>
