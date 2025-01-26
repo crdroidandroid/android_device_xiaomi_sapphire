@@ -1,4 +1,4 @@
-# All blobs below are extracted from sapphire V816.0.7.0.UNGMIXM
+# All blobs below are extracted from sapphire V816.0.7.0.UNGMIXM and from eqs T1TBS33.32-8-9-7-2
 
 # ACDB
 vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb
@@ -31,6 +31,7 @@ vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 
 # ADSP modules
+vendor/lib/libkaraokepal.so
 vendor/lib/rfsa/adsp/libSnpeHtpV68Skel.so
 vendor/lib/rfsa/adsp/libSnpeHtpV69Skel.so
 vendor/lib/rfsa/adsp/libadsp_jpege_skel.so
@@ -50,6 +51,7 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
+vendor/lib64/libkaraokepal.so
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
