@@ -1,2 +1,5 @@
 # Neverallow: rild can't access vendor default props
 dontaudit rild vendor_default_prop:file { read open getattr map };
+
+# Neverallow: crash_dump can't search in the lm directory for crash logs
+dontaudit crash_dump vendor_lm_data_file:dir { search };
