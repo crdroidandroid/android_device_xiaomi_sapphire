@@ -1,3 +1,4 @@
+allow init system_server:binder call;
 # Displayfeature
 allow system_server vendor_hal_displayfeature_xiaomi_default:binder { call transfer };
 
