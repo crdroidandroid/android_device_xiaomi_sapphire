@@ -3,3 +3,18 @@ dontaudit rild vendor_default_prop:file { read open getattr map };
 
 # Neverallow: crash_dump can't search in the lm directory for crash logs
 dontaudit crash_dump vendor_lm_data_file:dir { search };
+
+# Neverallow: rild cannot read the default_prop file
+dontaudit rild default_prop:file read;
+
+# Neverallow: init cannot add hal_thermal_service to the service_manager
+dontaudit init hal_thermal_service:service_manager add;
+
+# Neverallow: init cannot execute vendor_file files without a transaction
+dontaudit init vendor_file:file execute_no_trans;
+
+# Neverallow: platform_app cannot search for default_android_hwservice in hwservice_manager
+dontaudit platform_app default_android_hwservice:hwservice_manager find;
+
+# Neverallow: system_server cannot call or transfer binder for init
+dontaudit system_server init:binder { call transfer };
