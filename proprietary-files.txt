@@ -1,4 +1,4 @@
-# All blobs below are extracted from sapphire V816.0.7.0.UNGMIXM and from eqs T1TBS33.32-8-9-7-2
+# All blobs below are extracted from sapphire OS2.0.5.0.VNGMIXM and from eqs T1TBS33.32-8-9-7-2
 
 # ACDB
 vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb
@@ -176,7 +176,6 @@ vendor/etc/init/init.batterysecret.rc
 vendor/etc/init/vendor.qti.battery_stats.rc
 
 # Bluetooth
-system_ext/etc/bluetooth/leaudio_configs.xml
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib64/btaudio_offload_if.so
@@ -1216,7 +1215,6 @@ vendor/lib64/libhdcpsrm.so
 vendor/lib64/libmm-hdcpmgr.so
 
 # Hotword Enrollment
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
 product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
