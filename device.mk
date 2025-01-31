@@ -360,13 +360,6 @@ PRODUCT_PACKAGES += \
     libsfplugin_ccodec_utils.vendor \
     libplatformconfig
 
-# Media stagefright
-PRODUCT_PACKAGES += \
-    libstagefrighthw \
-    libstagefright_omx.vendor \
-    libstagefright_softomx.vendor \
-    libstagefright_softomx_plugin.vendor
-
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
@@ -421,10 +414,8 @@ PRODUCT_PACKAGES += \
     libstagefright_enc_common.vendor \
     libstagefright_softomx.vendor \
     libstagefright_softomx_plugin.vendor \
+    libstagefright_omx.vendor \
     libstagefrighthw \
-	libstagefright_omx.vendor \
-    libstagefright_softomx.vendor \
-    libstagefright_softomx_plugin.vendor \
     libvorbisidec.vendor \
     libvpx.vendor
 
@@ -490,7 +481,6 @@ PRODUCT_PACKAGES += \
     libjsoncpp.vendor \
     libqti_vndfwk_detect.vendor \
     libqti_vndfwk_detect_vendor \
-    libsqlite.vendor \
     libvndfwk_detect_jni.qti.vendor
 
 # QTI service tracker
@@ -528,7 +518,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
-# Sensors
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.sensors@2.1-service.xiaomi-multihal \
@@ -590,7 +579,7 @@ PRODUCT_PACKAGES += libshim
 
 # Thermal
 PRODUCT_PACKAGES += \
-	android.hardware.thermal@2.0.vendor \
+    android.hardware.thermal@2.0.vendor \
     android.hardware.thermal-service.qti \
     libpsi.vendor
 
