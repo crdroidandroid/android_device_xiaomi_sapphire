@@ -1,4 +1,4 @@
-# All blobs below are extracted from sapphire OS2.0.5.0.VNGMIXM and from eqs T1TBS33.32-8-9-7-2
+# All blobs below are extracted from sapphiren OS2.0.7.0.VNHMIXM and from eqs T1TBS33.32-8-9-7-2
 
 # ACDB
 vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb
