@@ -1017,6 +1017,7 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/libfastcvdsp_stub.so
 
 # Fingerprint
+vendor/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 odm/lib64/hw/fingerprint.fpc_fod.default.so:vendor/lib64/hw/fingerprint.fpc_fod.default.so
 odm/lib64/hw/fingerprint.goodix_fod.default.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
 odm/lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
