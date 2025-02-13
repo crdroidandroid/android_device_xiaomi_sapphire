@@ -1428,6 +1428,14 @@ vendor/lib64/libQcelp13SwCodec.so
 vendor/lib64/libdsd2pcm.so
 
 # Perf
+system_ext/lib/vendor.qti.hardware.perf@2.0.so
+system_ext/lib/vendor.qti.hardware.perf@2.1.so
+system_ext/lib/vendor.qti.hardware.perf@2.2.so
+system_ext/lib/vendor.qti.hardware.perf@2.3.so
+system_ext/lib64/vendor.qti.hardware.perf@2.0.so
+system_ext/lib64/vendor.qti.hardware.perf@2.1.so
+system_ext/lib64/vendor.qti.hardware.perf@2.2.so
+system_ext/lib64/vendor.qti.hardware.perf@2.3.so
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
 vendor/bin/hw/vendor.qti.hardware.perf-hal-service
 vendor/bin/hw/vendor.qti.memory.pasrmanager@1.0-service
@@ -1477,6 +1485,10 @@ vendor/lib/vendor.qti.hardware.iop@2.0.so
 vendor/lib/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib/vendor.qti.memory.pasrmanager@1.1.so
 vendor/lib/vendor.qti.power.pasrmanager@1.0.so
+vendor/lib/vendor.qti.hardware.perf@2.0.so
+vendor/lib/vendor.qti.hardware.perf@2.1.so
+vendor/lib/vendor.qti.hardware.perf@2.2.so
+vendor/lib/vendor.qti.hardware.perf@2.3.so
 vendor/lib/vendor.qti.qspmhal@1.0-impl.so
 vendor/lib/vendor.qti.qspmhal@1.0.so
 vendor/lib64/hw/vendor.qti.memory.pasrmanager@1.0-impl.so
@@ -1509,6 +1521,10 @@ vendor/lib64/libsilkyscrolls.so
 vendor/lib64/libskewknob.so
 vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.1.so
+vendor/lib64/vendor.qti.hardware.perf@2.2.so
+vendor/lib64/vendor.qti.hardware.perf@2.3.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
