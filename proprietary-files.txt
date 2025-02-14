@@ -1975,7 +1975,7 @@ vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermal-videochat.conf
 vendor/etc/thermal-yuanshen.conf
-vendor/etc/thermald-devices.conf
+vendor/etc/thermald-devices.conf|f81782dd86c8e7966f8fae3b8ab415c405c6233d
 
 # Time
 vendor/app/TimeService/TimeService.apk
