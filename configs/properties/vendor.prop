@@ -371,6 +371,9 @@ MultitouchMinDistance=1px
 TapInterval=1ms
 TapSlop=1px
 
+# Tombstoned
+tombstoned.max_tombstone_count=0
+
 # Fling
 ro.min.fling_velocity=160
 ro.max.fling_velocity=20000
