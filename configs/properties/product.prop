@@ -11,7 +11,6 @@ ro.af.client_heap_size_kbyte=7168
 
 # Battery Saving
 persist.radio.add_power_save=1
-pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
 ro.ril.fast.dormancy.rule=1
 ro.ril.fast.dormancy.timeout=3
